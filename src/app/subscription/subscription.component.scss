@@ -1,5 +1,119 @@
-.subscription-component {
+
+.subscription-component{
+ion-grid{
   background-image: url('../../assets/subscription-background.png');
-  background-size: cover; /* Adjust as needed */
-  background-position: center; /* Adjust as needed */
+    background-size: 100%;
+    // background-position: center center;
+    background-repeat: no-repeat;
+}
+ion-row{
+  margin:50px;
+}
+}
+
+.subscription-header h1{
+  font-family: Nunito;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+color:#202124;
+margin:0;
+}
+
+.subscription-header p{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  color:#202124;
+  margin:0;
+}
+
+.subscription-form{
+  h2{
+    font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color:#202124;
+  margin:10px 0px;
+  }
+  .item-native, .item-inner{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .label-stacked{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#202124;
+    margin:10px 0px;
+  }
+}
+.item-inner{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.dob-class{
+  .md .hydrated{
+    margin:0;
+  }
+  .day, .month, .year {
+      width:120px;
+      border:1px solid grey;
+      // border-radius:20px;
+  }
+}
+.grade-form{
+  ion-select{
+    border:1px solid grey;
+    height:56px;
+  }
+}
+.flex{
+  display:flex;
+}
+
+.checkbox-gender{
+  ion-checkbox{
+    border:1px solid grey;
+    margin-right: 5px;
+    padding:15px;
+    width:100%;
+  }
+  label{
+    display: flex;
+  }
+}
+
+.topic-form{
+  ion-segment-button{
+    border:1px solid grey;
+    margin-right: 5px;
+  }
+}
+.Subscribe-btn {
+  color:#896AF9;
+  --background: #fff;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    --padding-start: 1.4em;
+    --padding-end: 1.4em;
+    text-transform: capitalize;
+    --border-shadow: 4px 4px 0px -1px #896AF9;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom:15px;
+    border:1px solid #896AF9;
+    width:100%;
 }
